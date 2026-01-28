@@ -2,8 +2,9 @@ html, body {
     background-color: blue;
     color: thistle;
     min-height: 100vh;
-    max-width: 800px;
-    margin: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
 }
 
 .container {
