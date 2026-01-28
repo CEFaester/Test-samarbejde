@@ -1,3 +1,51 @@
 html, body {
     background-color: blue;
+    color: thistle;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main main"
+        "footer footer";
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.nav {
+    grid-area: nav;
+    background-color: royalblue;
+    padding: 10px;
+}
+
+.main {
+    grid-area: main;
+    background-color: navy;
+    padding: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.billed {
+    width: 10rem;
+    margin: 5px;
 }
