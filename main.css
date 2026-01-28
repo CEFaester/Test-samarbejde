@@ -1,14 +1,9 @@
 html, body {
     background-color: blue;
     color: thistle;
-    
     max-width: 1000px;
     margin: auto;
     padding: 0;
-}
-
-main {
-    min-height: 100vh;
 }
 
 .container {
@@ -36,16 +31,10 @@ main {
     padding: 10px;
 }
 
-.nav li {
-    list-style: none;
-    font-size: 20px;
-}
-
 .main {
     grid-area: main;
     background-color: navy;
     padding: 10px;
-    
 }
 
 .footer {
